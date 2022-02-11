@@ -2,8 +2,7 @@
 """
 Created on Tue Feb  8 14:12:37 2022
 
-@author: compute
-
+Author: 417-DevOps
 Desc: Riot API Bootcamp Module 1 example
 """
 
