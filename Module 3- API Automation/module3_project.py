@@ -29,3 +29,4 @@ player_routing= 'americas'
 # This is equivalent to going to /riot/account/v1/accounts/by-riot-id/
 summoner= lol_watcher.summoner.by_name(player_region, player_name)
 print('Player info= \n',summoner)
+
