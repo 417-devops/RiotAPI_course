@@ -3,7 +3,7 @@
 Created on Fri Feb 11 10:15:55 2022
 
 Author: 417-DevOps
-Desc: Riot API Bootcamp Module 2 example (automating account info call)
+Desc: Riot API Bootcamp Module 3 example (automating account info call)
 """
 ##--------- LOAD LIBRARIES ---------##
 from riotwatcher import LolWatcher #'pip install riotwatcher' in Anaconda prompt
