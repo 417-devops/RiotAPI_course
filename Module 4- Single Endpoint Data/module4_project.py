@@ -1,41 +1,56 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb 11 10:15:55 2022
+Created on Mon Feb 14 17:50:21 2022
 
 Author: 417-DevOps
-Desc: Riot API Bootcamp Module 4 project (account info + match history)
+Desc: Riot API Bootcamp Module 4 project (request past games, determine gametime)
 """
-##--------- LOAD LIBRARIES ---------##
+
+#%% ##--------- LOAD LIBRARIES ---------##
 from riotwatcher import LolWatcher #'pip install riotwatcher' in Anaconda prompt
 from dotenv import load_dotenv #'pip install python-dotenv' in Anaconda prompt
-import os
+import os, json
+import pandas as pd
+
+def total_games(player_info):
+    total_games= (player_info['wins']+ player_info['losses'])
+    
+    return total_games
+
+def setup_env():
+    load_dotenv('../../config.env')
+    api_key = os.environ['DEV_KEY'] 
+
+    lol_watcher = LolWatcher(api_key) #Tell Riot Watcher to use LoL functions with the API key
+    del(api_key)
+    
+    return lol_watcher
 
 
-##--------- LOAD CONFIG DATA ---------##
-# You can replace this with your API key, I just keep mine outside of repo directory
-load_dotenv('../../config.env')
-api_key = os.environ['DEV_KEY'] 
-
-lol_watcher = LolWatcher(api_key) #Tell Riot Watcher to use LoL functions with the API key
-
+#%% MAIN CODE
+lol_watcher= setup_env()
 
 ##--------- SET PLAYER PARAMETERS ---------##
 player_name= 'RebirthNA'
+num_matches_data= 10
 player_region= 'NA1'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
 player_routing= 'americas'
 
 
-##--------- CREATE PLAYER OBJECT ---------##
-# This is equivalent to going to /riot/account/v1/accounts/by-riot-id/
+##--------- LOAD THE PLAYER DATA AS CLASS ---------##
 summoner= lol_watcher.summoner.by_name(player_region, player_name)
-print('Player info= \n',summoner)
-
-
-##--------- GET MATCH HISTORY ---------##
-# Here's where Riot uses the Puuid!
-# Same as going to /lol/match/v5/matches/by-puuid/{puuid}/ids
-num_matches_data= 20
 match_history= lol_watcher.match.matchlist_by_puuid(region= player_routing, puuid= summoner['puuid'],
                                                     queue= 420, 
                                                     start=0, count= num_matches_data)
-print('\nMatch history IDs= \n',match_history)
+
+# See example file in folder for match data, info at
+# https://developer.riotgames.com/apis#match-v5/GET_getMatch 
+print('Game times= ')
+for matchID in match_history:
+    # explanation way
+    match_data= lol_watcher.match.by_id(region= player_routing, match_id= matchID)
+    game_time= match_data['info']['gameDuration']
+    
+    # better way to save memory
+    match_data= lol_watcher.match.by_id(region= player_routing, match_id= matchID)['info']['gameDuration']
+    print(game_time)
