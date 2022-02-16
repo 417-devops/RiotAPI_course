@@ -12,11 +12,6 @@ from dotenv import load_dotenv #'pip install python-dotenv' in Anaconda prompt
 import os, json
 import pandas as pd
 
-def total_games(player_info):
-    total_games= (player_info['wins']+ player_info['losses'])
-    
-    return total_games
-
 def setup_env():
     load_dotenv('../../config.env')
     api_key = os.environ['DEV_KEY'] 
@@ -35,7 +30,6 @@ player_name= 'RebirthNA'
 num_matches_data= 10
 player_region= 'NA1'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
 player_routing= 'americas'
-
 
 ##--------- LOAD THE PLAYER DATA AS CLASS ---------##
 summoner= lol_watcher.summoner.by_name(player_region, player_name)
