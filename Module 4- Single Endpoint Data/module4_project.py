@@ -9,8 +9,7 @@ Desc: Riot API Bootcamp Module 4 project (request past games, determine gametime
 #%% ##--------- LOAD LIBRARIES ---------##
 from riotwatcher import LolWatcher #'pip install riotwatcher' in Anaconda prompt
 from dotenv import load_dotenv #'pip install python-dotenv' in Anaconda prompt
-import os, json
-import pandas as pd
+import os
 
 def setup_env():
     load_dotenv('../../config.env')
