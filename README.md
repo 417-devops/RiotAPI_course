@@ -1,7 +1,7 @@
 # Riot API Bootcamp Course Material
 This is the GitHub repository for the Riot API Bootcamp course I made! Check it out at [https://github.com/417-devops/RiotAPI_course](https://github.com/417-devops/RiotAPI_course).
 
-Project solutions are posted separately to YouTube, viewable in this playlist [link](link).
+Project solutions are posted separately to YouTube, viewable in this playlist [link](https://youtube.com/playlist?list=PL-ytr5d8yHD6-PuDkCCULIcqV63ucZT5v).
 
 ## Purpose
 Learning to use the Riot API is a bit of a struggle. There's very few resources out there and they're not very structured. Having gone through that pain, I made this course to help others.
