@@ -6,7 +6,7 @@ Project solutions are posted separately to YouTube, viewable in this playlist [l
 ## Purpose
 Learning to use the Riot API is a bit of a struggle. There's very few resources out there and they're not very structured. Having gone through that pain, I made this course to help others.
 
-**The Riot API Bootcamp Course is designed to take you from no knowledge up to building your own app.**
+**The Riot API Bootcamp Course is designed to take you from zero knowledge up to building your own app.**
 
 
 ## Syllabus
