@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def setup_env():
-    load_dotenv('../../config.env')
+    load_dotenv('../../../config.env')
     api_key = os.environ['DEV_KEY'] 
 
     lol_watcher = LolWatcher(api_key) #Tell Riot Watcher to use LoL functions with the API key
