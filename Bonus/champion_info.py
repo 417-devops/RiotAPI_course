@@ -44,7 +44,7 @@ print(test_champ['id'],'has', champ_stats['hp'], 'HP at level 1')
 
 
 #%% --------- What about abilities and scaling? ---------##
-# Riot API has some, but they're broken (see vars)
+# Riot API has some, but they're broken (see vars and aN/fN in documentation https://developer.riotgames.com/docs/lol)
 full_champ_data= lol_watcher.data_dragon.champions(champions_version, full= True)['data']
 test_champ= full_champ_data['Aatrox']
 print(test_champ['spells'][1]) #q/w/e/r
