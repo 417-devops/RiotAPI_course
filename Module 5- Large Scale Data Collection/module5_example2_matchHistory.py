@@ -25,8 +25,8 @@ if __name__ == "__main__": #read more at https://stackoverflow.com/questions/419
     player_region= 'NA1'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
     player_routing= 'americas'
     
-    summoner= lol_watcher.summoner.by_name(player_region, player_name, lol_watcher)
+    summoner= lol_watcher.summoner.by_name(player_region, player_name)
     
     num_matches= 2
-    match_history= get_match_list(summoner, num_matches, player_routing)
+    match_history= get_match_list(summoner, num_matches, player_routing, lol_watcher)
     print(match_history)
