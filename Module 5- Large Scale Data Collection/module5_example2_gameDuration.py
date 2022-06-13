@@ -4,6 +4,7 @@ Created on Wed Feb 16 19:21:27 2022
 
 Author: 417-DevOps
 Desc: Riot API Bootcamp Module 5-2 example (functions)
+MATCH INFORMATION FILE (game duration)
 """
 
 #%% ##--------- LOAD LIBRARIES ---------##
