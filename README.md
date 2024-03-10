@@ -14,7 +14,7 @@ When I first started out using the Riot API, it was very hard to find dependable
 | Code examples, external links                   | GitHub repo ([RiotAPI_course](https://github.com/417-devops/RiotAPI_course))                              |
 | Project solutions                               | YouTube ([417-DevOps](https://www.youtube.com/@417devops/))                                      |
 
-### Upon purchase you receive:
+### Upon purchasing you receive:
 <ul>
 	<li> Content covering from fundamentals to fully functioning apps </li>
 	<li> Hours of video walkthroughs and troubleshooting </li>
