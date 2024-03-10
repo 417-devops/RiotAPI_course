@@ -9,11 +9,13 @@ Project solutions are posted separately to YouTube, viewable in this playlist [l
 When I first started out using the Riot API, it was very hard to find dependable resources and guides. The mission of this course is to spare others the pain of starting out by guiding them from basic API usage all the way to full fledged app development, with plenty of help along the way!
 
 ### Upon purchase you receive:
-##### Content covering from fundamentals to fully functioning apps
-##### Hours of video walkthroughs and troubleshooting
-##### Sample projects with code and guides
-##### Collection of documentation and references
-##### Continual course updates
+<ul>
+	<li> Content covering from fundamentals to fully functioning apps </li>
+	<li> Hours of video walkthroughs and troubleshooting </li>
+	<li> Sample projects with code and guides </li>
+	<li> Collection of documentation and references </li>
+	<li> Continual course updates </li>
+</ul>
 	
 --- 
 ## Syllabus
