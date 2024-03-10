@@ -8,6 +8,12 @@ Project solutions are posted separately to YouTube, viewable in this playlist [l
 ## What will I get from this course?
 When I first started out using the Riot API, it was very hard to find dependable resources and guides. The mission of this course is to spare others the pain of starting out by guiding them from basic API usage all the way to full fledged app development, with plenty of help along the way!
 
+| <b> Content </b>                                         | <b> Location </b>                                                  |
+|-------------------------------------------------|-----------------------------------------------------------|
+| Course material (videos, slides, lessons, etc.) | Course website ([riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)) |
+| Code examples, external links                   | GitHub repo ([RiotAPI_course](https://github.com/417-devops/RiotAPI_course))                              |
+| Project solutions                               | YouTube ([417-DevOps](https://www.youtube.com/@417devops/))                                      |
+
 ### Upon purchase you receive:
 <ul>
 	<li> Content covering from fundamentals to fully functioning apps </li>
