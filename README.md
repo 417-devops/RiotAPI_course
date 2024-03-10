@@ -1,54 +1,51 @@
 # Riot API Bootcamp Course Material
-This is the GitHub repository for the Riot API Bootcamp course I made! Check it out at [https://github.com/417-devops/RiotAPI_course](https://github.com/417-devops/RiotAPI_course).
+This is the GitHub repository containing code and links for the Riot API Bootcamp course. Check it out at [riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)!
 
-Project solutions are posted separately to YouTube, viewable in this playlist [link](link).
+Project solutions are posted separately to YouTube, viewable in this playlist [link](https://www.youtube.com/playlist?list=PL-ytr5d8yHD6-PuDkCCULIcqV63ucZT5v).
+<hl> </hl>
+<hl> </hl>
 
-## Purpose
-Learning to use the Riot API is a bit of a struggle. There's very few resources out there and they're not very structured. Having gone through that pain, I made this course to help others.
+## What will I get from this course?
+When I first started out using the Riot API, it was very hard to find dependable resources and guides. The mission of this course is to spare others the pain of starting out by guiding them from basic API usage all the way to full fledged app development, with plenty of help along the way!
 
-**The Riot API Bootcamp Course is designed to take you from no knowledge up to building your own app.**
-
-
+### Upon purchase you receive:
+##### Content covering from fundamentals to fully functioning apps
+##### Hours of video walkthroughs and troubleshooting
+##### Sample projects with code and guides
+##### Collection of documentation and references
+##### Continual course updates
+	
+--- 
 ## Syllabus
-<ol>
-  <li> <b>Basics (Python, GitHub, Notepad++) </b>
-    <ol>
-      <li> Resources to get started </li>
-      <li> Setting up an environment </li>
-      <li> Downloading GitHub repos </li>
-      <li> JSON explanation & Notepad++ example </li>
-      <li> <i>Project: read csv file, convert to data frame, create graphs</i> </li>
-    </ol>
-  </li>
-  <li> <b>Riot API introduction </b>
-    <ol>
-      <li> What is an API? </li>
-      <li> Getting access & Registering your App </li>
-      <li> What end points are there/what data is available? </li>
-      <li> Explanation of puuid/account name </li>
-      <li> <i>Project: make an API call on the website & download the data </i> </li>
-    </ol>
-  </li>
-  <li> <b>Automating API interactions </b>
-    <ol>
-      <li> Introduction to libraries (Cassiopeia, Riot Watcher) </li>
-      <li> Getting help (documentation, Discord) </li>
-      <li> <i> Project: automate an API call using a library </i> </li>
-    </ol>
-  </li>
-  <li> <b>Single Endpoint Data </b>
-    <ol>
-      <li> Use case explanation (e.g., in-depth match analysis, leaderboards) </li>
-      <li> Code example- getting challenger leaderboard </li>
-      <li> <i> Project: request last 25 games for an account and determine the most common champion(s) </i> </li>
-    </ol>
-  </li>
- <li> <b> Large Scale Data Collection </b>
-    <ol>
-      <li> Use case explanation (e.g., match history of top 50 players) </li>
-      <li> Setting up a process pipeline </li>
-      <li> Comparing 1 file approach vs. functions across files approach </li>
-      <li> <i> Project: determine number of roles (TOP, MID, etc) on the challenger ladder using the last 5 games </i> </li>
-    </ol>
-  </li> 
-</ol>
+<ul>
+	<li><b><b> Module 1 (Intro) </li></b>
+	<li><b><b> Module 2 (Setup) </li></b> 
+		<ul> Troubleshooting resources </ul>
+		<ul> Project 1: Learning the basics </ul>
+	<li><b><b> Module 3 (API Basics) </li></b>
+		<ul> Project 2: Make your own API call </ul>
+	<li><b> Module 4 (Building Functions) </li></b>
+		<ul> Project 3: Automate your first API call </ul>
+	<li><b> Module 5 (Scaling up) </li></b>
+		<ul> Making repeated API calls </ul>
+		<ul> Collecting large scale data </ul>
+		<ul> Project 5: Challenger Role determination </ul>
+	<li><b> Module 6 (Working with Static Data) </li></b>
+		<ul> Data Dragon and other sources </ul>
+		<ul> Project 6: Available Items </ul>
+	<li><b> Module 7 (AI/ML + Data Analysis) </li></b>
+		<ul> Asking the right questions </ul>
+		<ul> AI and the Riot API </ul>
+	<li><b> Concept Checkpoint </li></b>
+	<li><b> Module 8 (In-game data) </li></b>
+		<ul> Live games </ul>
+	<li><b> Module 9 (The Riot Client) </li></b>
+	<li><b> Module 10 (VALORANT Data) </li></b>
+		<ul> VALORANT specific API restrictions </ul>
+		<ul> VALORANT Sample data </ul>
+	<li><b> Module 11 (LoL Esports Data) </li></b>
+		<ul> Tournaments and pros </ul> 
+	<li><b> Module 12 (Course Wrap-up) </li></b>
+		<ul> Concluding remarks </ul>
+		<ul> Additional resource </ul>
+</ul>
