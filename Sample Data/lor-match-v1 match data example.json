@@ -1,0 +1,42 @@
+{
+	"metadata": {
+        "data_version": "2",
+        "match_id": "b94d13a0-92ae-4902-b7c1-478763fbb655",
+        "participants": [
+            "MvNvbzfAxx8zbvKBgMXLy5eW8bC3T9do4nY2V83GDq6GrTClMknFp-Pctjha2FYWLmNRX18uuH_PDg",
+            "8WEXvdTMX5htLRAot-jG8axDhqKEdQ-TYV4Umz7WczNI608-DC5X0CXXsJ_bU_7sd8YoSoVzxSuY2g"
+        ]
+    },
+    "info": {
+        "game_mode": "Constructed",
+        "game_type": "Ranked",
+        "game_start_time_utc": "2024-03-10T13:31:46.7986883+00:00",
+        "game_version": "live-green-5-02-3",
+        "game_format": "eternal",
+        "players": [
+            {
+                "puuid": "MvNvbzfAxx8zbvKBgMXLy5eW8bC3T9do4nY2V83GDq6GrTClMknFp-Pctjha2FYWLmNRX18uuH_PDg",
+                "deck_id": "1c025183-f93b-44d8-99b7-fd0edef74a95",
+                "deck_code": "CUDQCAIADUAQMABQAEDQAEABBAEQGAIIAMBQECAABIKAGBIABQJBIAYBAYACYAIIBECQEBIABEFAEAIFAIKACCAMBY",
+                "factions": [
+                    "card_08RU014_Name",
+                    "faction_Demacia_Name"
+                ],
+                "game_outcome": "loss",
+                "order_of_play": 1
+            },
+            {
+                "puuid": "8WEXvdTMX5htLRAot-jG8axDhqKEdQ-TYV4Umz7WczNI608-DC5X0CXXsJ_bU_7sd8YoSoVzxSuY2g",
+                "deck_id": "e7bff41e-d6f3-4927-9072-bd8e4275fba0",
+                "deck_code": "CICACAQEAEBACBBGGQBAGBADAUCQGCJDJFLFZWIBAUAQCBBHAEBQSVABAMCAWAIEAQHQCCAJAYAA",
+                "factions": [
+                    "faction_MtTargon_Name",
+                    "faction_Piltover_Name"
+                ],
+                "game_outcome": "win",
+                "order_of_play": 0
+            }
+        ],
+        "total_turn_count": 9
+    }
+}

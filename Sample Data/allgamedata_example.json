@@ -1,0 +1,238 @@
+{
+	"activePlayer": {
+		"abilities": {
+			"E": {
+				"abilityLevel": 0,
+				"displayName": "Umbral Dash",
+				"id": "AatroxE",
+				"rawDescription": "GeneratedTip_Spell_AatroxE_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AatroxE_DisplayName"
+			},
+			"Passive": {
+				"displayName": "Deathbringer Stance",
+				"id": "AatroxPassive",
+				"rawDescription": "GeneratedTip_Passive_AatroxPassive_Description",
+				"rawDisplayName": "GeneratedTip_Passive_AatroxPassive_DisplayName"
+			},
+			"Q": {
+				"abilityLevel": 0,
+				"displayName": "The Darkin Blade",
+				"id": "AatroxQ",
+				"rawDescription": "GeneratedTip_Spell_AatroxQ_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AatroxQ_DisplayName"
+			},
+			"R": {
+				"abilityLevel": 0,
+				"displayName": "World Ender",
+				"id": "AatroxR",
+				"rawDescription": "GeneratedTip_Spell_AatroxR_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AatroxR_DisplayName"
+			},
+			"W": {
+				"abilityLevel": 0,
+				"displayName": "Infernal Chains",
+				"id": "AatroxW",
+				"rawDescription": "GeneratedTip_Spell_AatroxW_Description",
+				"rawDisplayName": "GeneratedTip_Spell_AatroxW_DisplayName"
+			}
+		},
+		"championStats": {
+			"abilityHaste": 0.0,
+			"abilityPower": 0.0,
+			"armor": 38.0,
+			"armorPenetrationFlat": 0.0,
+			"armorPenetrationPercent": 1.0,
+			"attackDamage": 65.4000015258789,
+			"attackRange": 225.0,
+			"attackSpeed": 0.6510000228881836,
+			"bonusArmorPenetrationPercent": 1.0,
+			"bonusMagicPenetrationPercent": 1.0,
+			"critChance": 0.0,
+			"critDamage": 175.0,
+			"currentHealth": 660.0,
+			"healShieldPower": 0.0,
+			"healthRegenRate": 0.6000000238418579,
+			"lifeSteal": 0.0,
+			"magicLethality": 0.0,
+			"magicPenetrationFlat": 0.0,
+			"magicPenetrationPercent": 1.0,
+			"magicResist": 32.0,
+			"maxHealth": 660.0,
+			"moveSpeed": 350.0,
+			"omnivamp": 0.0,
+			"physicalLethality": 0.0,
+			"physicalVamp": 0.0,
+			"resourceMax": 0.0,
+			"resourceRegenRate": 0.0,
+			"resourceType": "BLOODWELL",
+			"resourceValue": 0.0,
+			"spellVamp": 0.0,
+			"tenacity": 5.0
+		},
+		"currentGold": 609.1417236328125,
+		"fullRunes": {
+			"generalRunes": [
+				{
+					"displayName": "Electrocute",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				{
+					"displayName": "Sudden Impact",
+					"id": 8143,
+					"rawDescription": "perk_tooltip_SuddenImpact",
+					"rawDisplayName": "perk_displayname_SuddenImpact"
+				},
+				{
+					"displayName": "Eyeball Collection",
+					"id": 8138,
+					"rawDescription": "perk_tooltip_EyeballCollection",
+					"rawDisplayName": "perk_displayname_EyeballCollection"
+				},
+				{
+					"displayName": "Relentless Hunter",
+					"id": 8105,
+					"rawDescription": "perk_tooltip_8105",
+					"rawDisplayName": "perk_displayname_8105"
+				},
+				{
+					"displayName": "Triumph",
+					"id": 9111,
+					"rawDescription": "perk_tooltip_9111",
+					"rawDisplayName": "perk_displayname_9111"
+				},
+				{
+					"displayName": "Coup de Grace",
+					"id": 8014,
+					"rawDescription": "perk_tooltip_CoupDeGrace",
+					"rawDisplayName": "perk_displayname_CoupDeGrace"
+				}
+			],
+			"keystone": {
+				"displayName": "Electrocute",
+				"id": 8112,
+				"rawDescription": "perk_tooltip_Electrocute",
+				"rawDisplayName": "perk_displayname_Electrocute"
+			},
+			"primaryRuneTree": {
+				"displayName": "Domination",
+				"id": 8100,
+				"rawDescription": "perkstyle_tooltip_7200",
+				"rawDisplayName": "perkstyle_displayname_7200"
+			},
+			"secondaryRuneTree": {
+				"displayName": "Precision",
+				"id": 8000,
+				"rawDescription": "perkstyle_tooltip_7201",
+				"rawDisplayName": "perkstyle_displayname_7201"
+			},
+			"statRunes": [
+				{
+					"id": 5008,
+					"rawDescription": "perk_tooltip_StatModAdaptive"
+				},
+				{
+					"id": 5001,
+					"rawDescription": "perk_tooltip_StatModHealthScaling"
+				},
+				{
+					"id": 5013,
+					"rawDescription": "perk_tooltip_StatModTenacity"
+				}
+			]
+		},
+		"level": 1,
+		"summonerName": "RebirthNA#NA1",
+		"teamRelativeColors": true
+	},
+	"allPlayers": [
+		{
+			"championName": "Aatrox",
+			"isBot": false,
+			"isDead": false,
+			"items": [
+				{
+					"canUse": true,
+					"consumable": false,
+					"count": 1,
+					"displayName": "Stealth Ward",
+					"itemID": 3340,
+					"price": 0,
+					"rawDescription": "GeneratedTip_Item_3340_Description",
+					"rawDisplayName": "Item_3340_Name",
+					"slot": 6
+				}
+			],
+			"level": 1,
+			"position": "",
+			"rawChampionName": "game_character_displayname_Aatrox",
+			"rawSkinName": "game_character_skin_displayname_Aatrox_9",
+			"respawnTimer": 0.0,
+			"runes": {
+				"keystone": {
+					"displayName": "Electrocute",
+					"id": 8112,
+					"rawDescription": "perk_tooltip_Electrocute",
+					"rawDisplayName": "perk_displayname_Electrocute"
+				},
+				"primaryRuneTree": {
+					"displayName": "Domination",
+					"id": 8100,
+					"rawDescription": "perkstyle_tooltip_7200",
+					"rawDisplayName": "perkstyle_displayname_7200"
+				},
+				"secondaryRuneTree": {
+					"displayName": "Precision",
+					"id": 8000,
+					"rawDescription": "perkstyle_tooltip_7201",
+					"rawDisplayName": "perkstyle_displayname_7201"
+				}
+			},
+			"scores": {
+				"assists": 0,
+				"creepScore": 0,
+				"deaths": 0,
+				"kills": 0,
+				"wardScore": 0.0
+			},
+			"skinID": 9,
+			"skinName": "Victorious Aatrox",
+			"summonerName": "RebirthNA",
+			"summonerSpells": {
+				"summonerSpellOne": {
+					"displayName": "Flash",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+				},
+				"summonerSpellTwo": {
+					"displayName": "Ghost",
+					"rawDescription": "GeneratedTip_SummonerSpell_SummonerHaste_Description",
+					"rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHaste_DisplayName"
+				}
+			},
+			"team": "ORDER"
+		}
+	],
+	"events": {
+		"Events": [
+			{
+				"EventID": 0,
+				"EventName": "GameStart",
+				"EventTime": 0.0388588011264801
+			},
+			{
+				"EventID": 1,
+				"EventName": "MinionsSpawning",
+				"EventTime": 65.03489685058594
+			}
+		]
+	},
+	"gameData": {
+		"gameMode": "PRACTICETOOL",
+		"gameTime": 163.4375,
+		"mapName": "Map11",
+		"mapNumber": 11,
+		"mapTerrain": "Default"
+	}
+}
