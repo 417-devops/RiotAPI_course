@@ -1,18 +1,24 @@
-# Riot API Bootcamp Course Material
-This is the GitHub repository containing code and links for the Riot API Bootcamp course. Check it out at [riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)!
-
-Project solutions are posted separately to YouTube, viewable in this playlist [link](https://www.youtube.com/playlist?list=PL-ytr5d8yHD6-PuDkCCULIcqV63ucZT5v).
-<hl> </hl>
-<hl> </hl>
-
-## What will I get from this course?
+# 🚀 Mastering Riot API: Navigating Gaming Data Course 🚀
 When I first started out using the Riot API, it was very hard to find dependable resources and guides. The mission of this course is to spare others the pain of starting out by guiding them from basic API usage all the way to full fledged app development, with plenty of help along the way!
 
-| <b> Content </b>                                         | <b> Location </b>                                                  |
-|-------------------------------------------------|-----------------------------------------------------------|
-| Course material (videos, slides, lessons, etc.) | Course website ([riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)) |
-| Code examples, external links                   | GitHub repo ([RiotAPI_course](https://github.com/417-devops/RiotAPI_course))                              |
-| Project solutions                               | YouTube ([417-DevOps](https://www.youtube.com/@417devops/))                                      |
+✅ Embark on a journey from beginner to pro! 🎮
+
+✅ For All Levels: Tailored for beginners and seasoned enthusiasts alike.
+
+✅ Comprehensive Learning: Gain tools and insights for effective problem-solving.
+
+✅ Versatile Concepts: Core ideas applicable across all Riot games.
+
+✅ Easy-to-Digest Format: Short, engaging videos organized by difficulty.
+
+✅ Quiz Boost: Periodic quizzes enhance your troubleshooting skills.
+
+✅ Flexible Learning: Save your progress and learn at your own pace.
+
+✅ Lifetime Access: One-time purchase ensures continuous updates for staying ahead.
+
+Unlock the world of gaming data analysis and stay at the forefront of Riot API mastery! 🌐📈
+
 
 ### Upon purchasing you receive:
 <ul>
@@ -23,6 +29,14 @@ When I first started out using the Riot API, it was very hard to find dependable
 	<li> Continual course updates </li>
 </ul>
 	
+## Content Locations
+
+| <b> Content </b>                                         | <b> Location </b>                                                  |
+|-------------------------------------------------|-----------------------------------------------------------|
+| Course material (videos, slides, lessons, etc.) | Course website ([riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)) |
+| Code examples, external links                   | GitHub repo ([RiotAPI_course](https://github.com/417-devops/RiotAPI_course))                              |
+| Project solutions                               | YouTube ([417-DevOps](https://www.youtube.com/@417devops/))                                      |
+
 --- 
 ## Syllabus
 <ul>
@@ -57,3 +71,9 @@ When I first started out using the Riot API, it was very hard to find dependable
 		<ul> Concluding remarks </ul>
 		<ul> Additional resource </ul>
 </ul>
+
+---
+
+### Riot legal notice (required for all third party products using Riot IP):
+
+`The Riot API Bootcamp is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc`
