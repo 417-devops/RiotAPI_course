@@ -1,4 +1,6 @@
 # 🚀 Mastering Riot API: Navigating Gaming Data Course 🚀
+### [riot-api-bootcamp.thinkific.com](https://riot-api-bootcamp.thinkific.com)
+
 When I first started out using the Riot API, it was very hard to find dependable resources and guides. The mission of this course is to spare others the pain of starting out by guiding them from basic API usage all the way to full fledged app development, with plenty of help along the way!
 
 ✅ Embark on a journey from beginner to pro! 🎮
