@@ -1,0 +1,20 @@
+Player 1= [
+    "NA1_4213234099",
+    "NA1_4213178170",
+    "NA1_4212488949"
+]
+
+Player 2= [
+    "NA1_4213234099",
+    "NA1_4213178170"
+    "NA1_4212346447"
+]
+
+Player 3= [
+    "NA1_4213234099",
+    "NA1_4213178170",
+    "NA1_4204654758"
+]
+	
+Match data by player= 3 players * 3 matches                     -> 9 datasets
+Match data by MatchID= 2 shared matches 3*(1 unique per player) -> 5 datasets

@@ -1,0 +1,22 @@
+{
+	"Legends of Runeterra": {
+    "puuid": "MvNvbzfAxx8zbvKBgMXLy5eW8bC3T9do4nY2V83GDq6GrTClMknFp-Pctjha2FYWLmNRX18uuH_PDg",
+    "gameName": "bob141",
+    "tagLine": "NA1"
+	},
+	"League of Legends": {
+		"puuid": "b-zNFgYAT2sxjwn6483-dpbjI_hIcwKmEiTnZPv4UMaOlg-EzeCuXUJLC-AFXSfExhq_mx-dVqHnWg",
+		"gameName": "RebirthNA",
+		"tagLine": "NA1"
+	},
+	"Teamfight Tactics": {
+		"puuid": "b-zNFgYAT2sxjwn6483-dpbjI_hIcwKmEiTnZPv4UMaOlg-EzeCuXUJLC-AFXSfExhq_mx-dVqHnWg",
+		"gameName": "RebirthNA",
+		"tagLine": "NA1"
+	},
+		"Valorant": {
+		"link": "https://stelar7.no/valorant/",
+		"sample matches file": "https://stelar7.no/valorant/eu/1641207119.json",
+		"single match": "see python code to manipulate large JSON file"
+	},
+}
