@@ -1,14 +1,14 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sun Mar 10 17:25:10 2024
+LAST MODIFIED: 2025-02-09
 
 @author: 417-devops
 """
 
+#%%
 import pandas as pd
 
 # read in the data
-air_quality= pd.read_csv('air_quality_no2.csv', index_col=0, parse_dates=True)
+air_quality= pd.read_csv('air_quality_no2.csv', index_col=0, parse_dates=True) #make sure you run this python file in the same directory as the csv file
 print(air_quality.head())
 
 # make a plot

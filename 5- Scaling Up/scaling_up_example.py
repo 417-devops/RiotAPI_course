@@ -12,16 +12,16 @@ Created on Mon Mar 11 20:33:34 2024
 
 #%% ##--------- LOAD LIBRARIES ---------##
 from riotwatcher import LolWatcher 
-from dotenv import load_dotenv 
+from dotenv import dotenv_values 
 import os
 import pandas as pd
 
 def setup_env():
-    load_dotenv('../../config.env') #may need to modify where this file is
-    API_KEY = os.environ['DEV_KEY'] 
+    API_KEY = dotenv_values("../config.env")['DEV_KEY']  #may need to modify where this file is located, so check the file path
 
     lol_watcher = LolWatcher(API_KEY) #Tell Riot Watcher to use LoL functions with the API key
     del(API_KEY) #remove the API_KEY from env variables
+    
     return lol_watcher
 
 def total_games(player_info):
