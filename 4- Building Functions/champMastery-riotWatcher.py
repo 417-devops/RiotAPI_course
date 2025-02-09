@@ -39,6 +39,7 @@ player_account = riot_watcher.account.by_riot_id(player_routing, player_name, pl
 print('Riot account info= ', player_account) #see how this has general account info?
 
 me = lol_watcher.summoner.by_puuid(player_region, player_account['puuid'])
+#playerName_RiotAPI= riot_watcher.account.by_puuid(player_routing, player_account['puuid']) #this is how to do puuid -> 'gameName' and 'tagLine' for the player
 print('LoL account info= ', me) #see how this has more specific LoL info (e.g. profileIconID, summonerLevel, etc.)?
 #also notice how unlike cass, this loads all the attributes
 

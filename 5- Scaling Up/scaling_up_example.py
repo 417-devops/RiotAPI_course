@@ -91,6 +91,9 @@ games_numN= total_games(bottom_chall)
 print('\n#1 player: ', num1_player['summonerId'], 'has played', games_num1, 'games')
 print('Bottom player: ', bottom_chall['summonerId'], 'has played', games_numN, 'games', '\n')
 
+#you could get the names by 1) getting the PUUID, then 2) getting the game name
+#backmap_PUUID= lol_watcher.summoner.by_id(region= player_region, encrypted_summoner_id= num1_player['summonerId'])['puuid']
+#riot_watcher.account.by_puuid(player_routing, backmap_PUUID) #this is how to do puuid -> 'gameName' and 'tagLine' for the player
 
 
 #%%--------- Now lets check a stat from the #1 player's last match ---------##
