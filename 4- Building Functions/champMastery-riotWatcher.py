@@ -17,7 +17,7 @@ from dotenv import dotenv_values
 #%%--------- LOAD CONFIG DATA ---------##
 # load_dotenv('../../../../config.env') #keeps API outside of repo
 # api_key = os.environ['DEV_KEY']
-api_key = dotenv_values("../config.env")['DEV_KEY']
+api_key = dotenv_values("../../config.env")['DEV_KEY']
 #api_key = 'RGAPI-x-x-x-x-x' #alternatively, test with your key here
 
 #apply API key to various methods
@@ -55,5 +55,5 @@ print('\nHighest mastery champion data= ', champ_mastery[0])
 #if you ever need to ID what methods are available, use print(dir(lol_watcher.champion_mastery)) to see all the methods available and replace what is in dir(~) as needed
 
 # for reference, the Github for Riot Watcher gives this example to pull player attributes 
-my_ranked_stats = lol_watcher.league.by_summoner(player_region, me['id'])
-#print(my_ranked_stats)
+my_ranked_stats = lol_watcher.league.by_puuid(player_region, me['puuid'])
+print(my_ranked_stats)

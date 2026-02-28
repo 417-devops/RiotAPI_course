@@ -11,7 +11,7 @@ from dotenv import dotenv_values
 
 
 #%%--------- LOAD CONFIG DATA ---------##
-api_key = dotenv_values("../config.env")['DEV_KEY']
+api_key = dotenv_values("../../config.env")['DEV_KEY']
 #api_key = 'RGAPI-x-x-x-x-x' #alternatively, test with your key here
 
 #apply API key to various methods
@@ -37,3 +37,5 @@ lol_account = lol_watcher.summoner.by_puuid(player_region, player_account['puuid
 #%%--------- Get a list of past matches ---------##
 matchlist= lol_watcher.match.matchlist_by_puuid(region= player_region, puuid= lol_account['puuid'])
 print('Last 3 matchIDs matchIDs= ', matchlist[0:3]) #latest match is matchlist[0]
+
+# %%

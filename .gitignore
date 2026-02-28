@@ -132,3 +132,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IDE and project specific
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Conda environments
+.conda/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# API keys and credentials
+*_key.txt
+*_token.txt
+config.local.json
+config.local.py

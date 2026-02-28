@@ -16,7 +16,7 @@ import pandas as pd
 
 def setup_env():
     '''Load the API keys from the config file''' #this is called a docstring and will show in some editors when you start typing the function name
-    api_key = dotenv_values("../config.env")['DEV_KEY']
+    api_key = dotenv_values("../../config.env")['DEV_KEY']
     lol_watcher = LolWatcher(api_key) #for league of legends specific calls
     riot_watcher = RiotWatcher(api_key) #for all Riot games
     
@@ -86,10 +86,11 @@ bottom_chall= challenger_players.iloc[-1]
 games_num1= total_games(num1_player)
 games_numN= total_games(bottom_chall)
 
-#note that the data only contains summonerIDs so we would need to make a second call to get their actual in-game names
+#note that the data only contains puuid's so we would need to make a second call to get their actual in-game names
 #OR visit https://developer.riotgames.com/apis#account-v1/GET_getByPuuid and put in lol_watcher.summoner.by_id(region= player_region, encrypted_summoner_id= num1_player['summonerId'])['puuid']
-print('\n#1 player: ', num1_player['summonerId'], 'has played', games_num1, 'games')
-print('Bottom player: ', bottom_chall['summonerId'], 'has played', games_numN, 'games', '\n')
+
+print('\n#1 player: ', num1_player['puuid'], 'has played', games_num1, 'games')
+print('Bottom player: ', bottom_chall['puuid'], 'has played', games_numN, 'games', '\n')
 
 #you could get the names by 1) getting the PUUID, then 2) getting the game name
 #backmap_PUUID= lol_watcher.summoner.by_id(region= player_region, encrypted_summoner_id= num1_player['summonerId'])['puuid']
@@ -100,7 +101,8 @@ print('Bottom player: ', bottom_chall['summonerId'], 'has played', games_numN, '
 # to get match history, we need the player's puuid
 # see docs: https://riot-watcher.readthedocs.io/en/latest/riotwatcher/LeagueOfLegends/MatchApiV5.html#riotwatcher._apis.league_of_legends.MatchApiV5
 
-no1Player_puuid= lol_watcher.summoner.by_id(region= player_region, encrypted_summoner_id= num1_player['summonerId'])['puuid'] #get the puuid
+no1Player_puuid= num1_player['puuid']
+#no1Player_puuid= lol_watcher.summoner.by_puuid(player_region, num1_player['puuid'])#get the puuid
 last_match_id= lol_watcher.match.matchlist_by_puuid(region= player_region, puuid= no1Player_puuid)[0] #now return the match ID of the last game
 
 
@@ -111,3 +113,4 @@ print(f"The no.1 challenger player earned {gold_earned} gold in their last game.
 # we could continue the above process for multiple matches if we wanted
 matchlist= lol_watcher.match.matchlist_by_puuid(region= player_region, puuid= no1Player_puuid)
 print('Last 3 matchIDs matchIDs= ', matchlist[0:3]) #latest match is matchlist[0]
+# %%

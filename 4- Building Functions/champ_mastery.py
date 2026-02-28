@@ -18,8 +18,9 @@ tagline = 'NA1'
 
 ## Load the API key from the .env file
 # load_dotenv('../../../config.env') #keeps API outside of repo, you may need to modify the filepath
+# example: ../../config.env if the config.env file is in the same folder as this script, or ../../../config.env if the config.env file is 3 levels up from this script
 # api_key = os.environ['DEV_KEY'] 
-api_key = dotenv_values("../config.env")['DEV_KEY']  #may need to modify where this file is located, so check the file path
+api_key = dotenv_values("../../config.env")['DEV_KEY']  #may need to modify where this file is located, so check the file path
 region= 'americas'
 
 ## Construct the API URL for puuid via endpoint= /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}

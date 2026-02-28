@@ -1,8 +1,12 @@
 """
-LAST MODIFIED: 2025-02-09
-
-@author: 417-DevOps
 Desc: Pull recent match data using Cass
+
+====================  IMPORTANT ==================== 
+It looks like as of Sept 2025, Cassiopeia is broken. There is no fix because no one has updated the library (see https://github.com/meraki-analytics/cassiopeia/issues/468)
+I have left the code as is, but it will not work until the library is updated. Notably the Feb 2026 commit did not fix the issue (see https://github.com/meraki-analytics/cassiopeia/commit/b01c3da4d4bd4f4ce777072af7c7ad1124c14446)
+
+I strongly recommend using Riot Watcher for now as it is actively maintained and has a much larger user base, which means issues are more likely to be fixed in a timely manner.
+
 """
 
 #%%--------- LOAD LIBRARIES ---------##
